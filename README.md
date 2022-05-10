@@ -1,0 +1,3 @@
+# NoMark
+
+A language to replage HTML, XML, SVG, PHP...
