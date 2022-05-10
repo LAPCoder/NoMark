@@ -1,0 +1,3 @@
+*.[php,html,svg,xml].[nm,nom,nmk,nomk,nomark] linguist-language=NoMark
+* linguist-detectable=true
+* linguist-documentation=false

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="NoMark lang" />
+		<meta name="author" content="LAPCoder" />
+		<title>NoMark lang</title>
+		<link rel="icon" href="https://lapcoder.github.io/images/favicon2.png" />
+		<link rel="stylesheet" href="https://lapcoder.github.io/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/vs.min.css"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous"
+		></script>
+		<script src="https://lapcoder.github.io/script.js"></script>
+		<script src="./js/scripts.js" async></script>
+		<link rel="stylesheet" href="./css/styles.css" />
+		<!-- A short header... -->
+	</head>
+
+	<body>
+		<section class="main">
+			<!-- Main of the document -->
+			<h1>NoMark lang</h1>
+
+			<p class="presentation">
+				The NoMark lang is a language for simplifying HTML, SVG, XML, PHP... <br />
+				It's tranpiled in HTML, SVG, XML, PHP...
+				The extension is <code>.{yourLang}.[nm, nom, nmk, nomk, nomark]</code>.
+				For example, <code>index.html.nom</code> or <code>page.php.nomk</code>.
+				It will be tranpiled respectively in <code>index.html</code> and <code>page.php</code>.
+			</p>
+			<h2>Type your NoMark here:</h2>
+			<textarea id="input" rows="10" cols="50"></textarea>
+			<button id="button">Transpile</button>
+			<h2>Result:</h2>
+			<div id="result"></div>
+		</section>
+
+		<!-- Right side -->
+		<div id="header"></div>
+	</body>
+</html>
